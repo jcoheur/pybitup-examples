@@ -1,6 +1,3 @@
-import sys
-sys.path.append('../../')
-
 import model_mass_loss
 
 import numpy as np

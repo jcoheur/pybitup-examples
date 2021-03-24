@@ -1,6 +1,3 @@
-import sys
-sys.path.append('../../')
-
 import one_reaction_pyrolysis
 
 import numpy as np
