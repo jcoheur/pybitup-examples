@@ -1,0 +1,25 @@
+/* This is a json file. Comments are allowed as jsmin is used to removed comments */
+{
+    "SensitivityAnalysis": {
+        "Uncertain_param": {
+            "A":  {"filename": "output/mcmc_chain.csv", "field": 0}, 
+            "E":  {"filename": "output/mcmc_chain.csv", "field": 1}, 
+            "n":  {"filename": "output/mcmc_chain.csv", "field": 2}, 
+            "F":  {"filename": "output/mcmc_chain.csv", "field": 3}
+        },
+        "Method": "Kernel", 
+        "Names": [["A"], ["E"], ["n"], ["F"]]
+        // "Model_eval_folder": "./output/propagation/model_eval/"
+    }, 
+
+    "PostProcess": { 
+        "Data": { 
+		    "display": "no", 
+		    "num_plot": [1]
+		},
+        "SensitivityAnalysis": {
+		    "display": "yes",
+		    "num_plot": 1
+        }
+    }
+}

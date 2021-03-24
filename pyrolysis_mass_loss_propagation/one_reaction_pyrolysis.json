@@ -43,8 +43,9 @@
 				    "type": "diag", 
 				    "value": [1e-3, 1e-3, 1e-3, 1e-4]
 				}
-			}
-		}
+			}, 
+            "save_eval_freq": 1
+		} 
     },
     
 
